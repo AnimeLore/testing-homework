@@ -8,6 +8,6 @@ describe('github', async function() {
         });
 
         const title = await this.browser.$('#readme h1').getText();
-        assert.equal(title, 'Hermione');
+        assert.equal(title, 'Hermione', 'хуйня не работает');
     });
 });
