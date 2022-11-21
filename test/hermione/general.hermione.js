@@ -75,5 +75,6 @@ describe('Тесты общих требований', async function () {
         await brandTitle.click();
 
         assert.equal(await browser.getUrl(), "http://localhost:3000/hw/store/", "Заголовок не перенаправляет на главную страницу");
+
     });
 });
